@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delivery's Service</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link
+     rel="stylesheet"
+     href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
+</head>
+<body>
+ 
+    <header class="header">
+        <div class="container">
+            <div class="header-inner">
+                <a class="logo" href="#">
+                    <img width="128" class="logo-image" src="./images/logo.png" alt="Logo icon">
+                </a>
+                <form class="search-form" action="#">
+                    <input class="search-input" type="search" placeholder="Блюда">
+                    <button class="search-button">
+                        <img class="search-icon" src="./images/search-icon.svg" alt="Search icon">
+                    </button>
+                </form>
+                <div class="auth">
+                    <a class="login" href="#">Войти</a>
+                </div>
+                <div class="shoping-card">
+                    <a href="#"><img src="./images/shopping-card.svg" alt="shoping-card Icon"></a>
+                    <span class="shopping-counter">12</span>
+                </div>
+            </div>
+           
+        </div>
+                
+    </header>
+    <main class="main">
+        <div class="slider container">
+            
+        </div>
+        <div class="swiper container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+              <!-- Slides -->
+              <div class="swiper-slide">
+                <div class="slide slide-text-light slide-summer">
+                    <div class="slide-content">
+                        <h2 class="slide-title">Неделя летних овощей</h2>
+                            <p class="slide-text">
+                                Специальная овощная корзина. Новые продукты,
+                                специальные цены, скидки!  
+                            </p>
+                    <a class="button button-primary" href="#">Заказать со скидкой</a>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide slide-text-light slide-fall">
+                    <div class="slide-content">
+                        <h2 class="slide-title">Неделя осенних овощей</h2>
+                            <p class="slide-text">
+                                Специальная овощная корзина. Новые продукты,
+                                специальные цены, скидки! 
+                            </p>
+                    <a class="button button-primary" href="#">Заказать со скидкой</a>
+                    </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="slide slide-text-light slide-vitamin">
+                    <div class="slide-content">
+                        <h2 class="slide-title">Витаминная неделя</h2>
+                            <p class="slide-text">
+                                Специальная овощная корзина. Новые продукты,
+                                специальные цены, скидки!  
+                            </p>
+                    <a class="button button-primary" href="#">Заказать со скидкой</a>
+                    </div>
+                </div>
+              </div>
+              ...
+            </div>
+          
+            <!-- If we need navigation buttons -->
+            <div class="slider-buttons">
+                <div class="slider-button slider-button-prev">
+                    <img src="./images/arrow-left.svg" alt="arrow-left">
+                </div>
+                <div class="slider-button slider-button-next">
+                    <img src="./images/arrow-right.svg" alt="arrow-right">
+                </div>
+            </div>
+            
+          
+          </div>
+        <div class="container">
+            <div class="promo">
+                <section class="card card-text-light sweet-basket">
+                    <img class="card-image" src="./images/sweet-basket-pic.jpg" alt="Sweet basket">
+                    
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                Сладкая корзина
+                            </h3>
+                            <p class="card-description">
+                                Произвольный выбор
+                                десертов по Вашему
+                                желанию.
+                            </p>
+                        </div>    
+                            <div class="card-footer">
+                                <strong class="card-price">
+                                    ОТ 1 300 ₽
+                                </strong>
+                                <span class="card-delivery">
+                                    стоимость доставки до 200 ₽
+                                </span>
+                                <a class="button button-default" href="#">
+                                    Собрать корзину
+                                </a>
+                              
+                    </div>
+                    
+                    
+                </section>
+                <section class="card card-text-light minimum">
+                    <img class="card-image" src="./images/salat-picture.jpg" alt="Salat">
+                    
+                        <div class="card-header">
+                            <h3 class="card-title">
+                                Минимум усилий
+                            </h3>
+                            <p class="card-description">
+                                Произвольный выбор
+                                продуктов по Вашему
+                                желанию.
+                            </p>
+                        </div>    
+                            <div class="card-footer">
+                                <strong class="card-price">
+                                    ОТ 700 ₽
+                                </strong>
+                                <span class="card-delivery">
+                                    стоимость доставки до 200 ₽
+                                </span>
+                                <a class="button button-default" href="#">
+                                    Собрать корзину
+                                </a>                 
+                    </div>  
+                </section>
+            </div>
+        </div>
+       
+        <section class="delivery-week container">
+            <h2 class="section-title">
+                Доставка готовой еды на неделю
+            </h2>
+            <div class="delivery-cards">
+                <div class="delivery-card">
+                    <img class="delivery-image" src="./images/cards/card-1.jpg" alt="card-img">
+                    <span class="delivery-tag tag-health">ЗОЖ</span>
+                </div>
+                <div class="delivery-card">
+                    <img class="delivery-image" src="./images/cards/card-2.jpg" alt="card-img">
+                    <span class="delivery-tag tag-vegitable">Овощное</span>
+                </div>
+                <div class="delivery-card">
+                    <img class="delivery-image" src="./images/cards/card-3.jpg" alt="card-img">
+                    <span class="delivery-tag tag-meat">Мясное</span>
+                </div>
+                <div class="delivery-card">
+                    <img class="delivery-image" src="./images/cards/card-4.jpg" alt="card-img">
+                    <span class="delivery-tag tag-bird">Птица</span>
+                </div>
+                <div class="delivery-card">
+                    <img class="delivery-image" src="./images/cards/card-5.jpg" alt="card-img">
+                    <span class="delivery-tag tag-fish">Рыбное</span>
+                </div>
+                <div class="delivery-card">
+                    <img class="delivery-image" src="./images/cards/card-6.jpg" alt="card-img">
+                    <span class="delivery-tag tag-kids">Детское</span>
+                </div>
+                <div class="delivery-card">
+                    <img class="delivery-image" src="./images/cards/card-7.jpg" alt="card-img">
+                    <span class="delivery-tag tag-parents">Родителям</span>
+                </div>
+                <div class="delivery-card">
+                    <img class="delivery-image" src="./images/cards/card-8.jpg" alt="card-img">
+                    <span class="delivery-tag tag-celebration">Праздничное</span>
+                </div>
+            </div>
+        </section>
+        <section class="section-grey category">
+            
+             <div class="container">
+
+                <h2 class="section-title">
+                    Категории блюд
+                </h2>
+                <ul class="tabs">
+                    <li class="tabs-item">
+                        <a data-tab="popular" class="tabs-link active" href="#">Популярные блюда</a>
+                    </li>  
+                    <li>
+                        <a data-tab="vegitables" class="tabs-link" href="#">Овощное</a>
+                    </li>
+                    <li>
+                        <a data-tab="meat" class="tabs-link" href="#">Мясное</a>
+                    </li>       
+                </ul>
+                    <div id="popular" class="tabs-content">
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/dish_1.jpg" alt=" Image Dish">
+                            </div>
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Куриные крылья под
+                                    соусом Терияки
+                                </h3>
+                                <p class="tabs-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptas delectus, inventore consequatur rerum eum adipisci quod magni impedit labore?
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            260 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            500 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/popular_tab/dish_2.jpg" alt=" Image Dish">
+                            </div>
+                           
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Наггетсы, картофель-фри с соусом
+                                </h3>
+                                <p class="tabs-description">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis impedit quis, eos minima eum minus earum repellendus omnis. Qui, cum?
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            300 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            450 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/popular_tab/dish_3.jpg" alt=" Image Dish">
+                            </div>
+                           
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Бифштексы, салат и картофель-фри
+                                </h3>
+                                <p class="tabs-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit est neque maiores eos aperiam laudantium et quod aspernatur esse temporibus.
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            400 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            400 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/popular_tab/dish_4.jpg" alt=" Image Dish">
+                            </div>
+                           
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Салянка
+                                </h3>
+                                <p class="tabs-description">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Excepturi commodi distinctio, beatae ut quidem tenetur animi eos adipisci placeat voluptates.
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            370 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            600 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                    </div>
+                    <div id="vegitables" class="tabs-content hidden">
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/vegitables_tab/dish_1.jpg" alt=" Image Dish">
+                            </div>
+                           
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Овощная нарезка с грибами
+                                </h3>
+                                <p class="tabs-description">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta aperiam quis a voluptates officia explicabo maiores autem commodi nostrum libero.
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            430 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            700 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/vegitables_tab/dish_2.jpg" alt=" Image Dish">
+                            </div>
+                           
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Овощной гриль
+                                </h3>
+                                <p class="tabs-description">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Et vitae libero incidunt, nulla sequi quos odio sit minus! Laborum, sapiente?
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            540 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            760 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/vegitables_tab/dish_3.jpg" alt=" Image Dish">
+                            </div>
+                            <div class="tabs-card-content">
+                            
+                            
+                                <h3 class="tabs-title">Тушеные овощи Рататуи
+                                </h3>
+                                <p class="tabs-description">
+                                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi odit culpa nam iste enim maxime ea et doloribus quisquam! Ipsam!
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            400 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            570 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/vegitables_tab/dish_4.jpg" alt=" Image Dish">
+                            </div>
+                           
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Овощи под паром
+                                </h3>
+                                <p class="tabs-description">
+                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae illum excepturi recusandae sequi molestias omnis praesentium reiciendis nostrum. Ad, expedita!
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            300 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            400 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                    </div>
+                    <div id="meat" class="tabs-content hidden">
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/meat_tab/dish_1.jpg" alt=" Image Dish">
+                            </div>
+                            
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Курица и картофель-фри с овощами
+                                </h3>
+                                <p class="tabs-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum ex ab accusamus eius inventore provident obcaecati, distinctio eveniet. Animi, non.
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            600 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            650 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/meat_tab/dish_2.jpg" alt=" Image Dish">
+                            </div>
+                          
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Мясо с фасолью и овощами
+                                </h3>
+                                <p class="tabs-description">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis reiciendis tempora error commodi animi a quidem magni quia corporis ipsum!
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            340 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            400 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/meat_tab/dish_3.jpg" alt="Image Dish">
+                            </div>
+                           
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Мясо с соусом и томатом
+                                </h3>
+                                <p class="tabs-description">
+                                   Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero, atque reprehenderit corrupti ullam eum mollitia eius dolorum doloribus! Aliquam, voluptatem!
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            350 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            350 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                        <div class="tabs-card">
+                            <div class="box-img">
+                                <img class="tabs-image" src="./images/meat_tab/dish_4.jpg" alt="Image Dish">
+                            </div>
+                            
+                            <div class="tabs-card-content">
+                                <h3 class="tabs-title">Овощной салат с мясом цыпленка
+                                </h3>
+                                <p class="tabs-description">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa dolor laborum consequuntur, error laboriosam aperiam doloremque aspernatur atque perspiciatis exercitationem!
+                                </p> 
+                                <div class="tabs-info">
+                                    <div class="tabs-good">
+                                        <span class="tabs-price">
+                                            490 ₽
+                                        </span>
+                                        <span class="tabs-weight">
+                                            600 гр
+                                        </span>
+                                    </div>
+                                    <button class="button button-outline">В корзину</button>
+                                </div> 
+                            </div>
+                          
+                        </div> 
+                        <!-- tabs-card -->
+                    </div>
+             <button class="more button button-outline button-center">Больше блюд</button>
+            </div>       
+        </section>
+    </main>
+    <div class="footer footer">
+        <div class="container">
+            <div class="footer-wrap">
+                <a href="#">
+                    <img width="205" class="footer-logo" src="./images/logo.png" alt="footer logo">
+                </a>
+                
+                <nav class="footer-nav">
+                    <a class="footer-link" href="#">
+                        Доставка и оплата
+                    </a>
+                    <a class="footer-link" href="#">
+                        Напишите нам
+                    </a>
+                </nav>    
+                    <div class="social-links">
+                       <a class="social-link" href="#">
+                           <img src="./images/socials/telegram.svg" alt="telegram icon">
+                       </a>
+                       <a class="social-link" href="#">
+                           <img src="./images/socials/vk.svg" alt="vk icon">
+                       </a>
+                       <a class="social-link" href="#">
+                           <img src="./images/socials/instagram.svg" alt="instagram icon">
+                       </a> 
+                    </div>
+                
+            </div>  
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>
