@@ -147,6 +147,9 @@ a {
 .slider-button {
     cursor: pointer;
 }
+.slider-button:hover {
+    opacity: .8;
+}
 .button-primary {
     background: #F47322;
     color: #fff;
